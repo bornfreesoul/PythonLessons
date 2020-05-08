@@ -1,0 +1,28 @@
+#List[] is same like Array (series) of random data and its changeable (mutable)
+myFoods1 = ["Bread","Wheat","Rice"]
+print(myFoods)
+print(myFoods[2])
+myFoods.append("Garlic")
+print(myFoods)
+myFoods.pop(1)
+print(myFoods)
+
+myFoods2 = ["Bread","Wheat","Rice"]
+print(myFoods2[0:2])
+print(myFoods2[:1])
+print(myFoods2[0:])
+
+#length, maximum, minimum functions
+myPhone1 =["Samsung", "Apple", "LG"]
+print(myPhone1)
+print(len(myPhone1))
+print(max(myPhone1))
+print(min(myPhone1))
+print(sorted(myPhone1))
+print(sorted(myPhone1,reverse=True))
+
+#Raw Input feature
+from pip._vendor.distlib.compat import raw_input
+
+name1 = raw_input("Please enter your age:")
+print('The age you entered is:',name1)

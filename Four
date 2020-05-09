@@ -1,0 +1,16 @@
+from pip._vendor.distlib.compat import raw_input
+myMoney = ['Dollar', 'Pound', 'Rupee', 'Ruble']
+myInfo = raw_input("Which currency you want to buy: ")
+
+if myInfo in myMoney:
+    print("Present")
+else:
+    print("No, currency")
+    
+#Second Example:
+myInfo = 4000
+
+if myInfo>3800:
+    print("Good Price")
+else:
+    print("No, Price")

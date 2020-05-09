@@ -1,0 +1,18 @@
+#Sets are random array of unique dataset 
+
+myData1 = [1,2,3,4,5,4,3,2,1]
+my_result = set(myData1)
+print(my_result)
+
+#Example-2: 
+myData2 = {'iphone':900, 'Samsung': 750, 'Google': 200}
+print(myData2)
+print(myData2['iphone'])
+print('LG' in myData2)
+print('LG' not in myData2)
+
+#Operators example-3:
+print(5>7)
+print(5<7)
+print(5>=7)
+print(5<=7)

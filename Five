@@ -1,0 +1,10 @@
+from pip._vendor.distlib.compat import raw_input
+
+myInfo = float(raw_input("Please enter the price: "))
+
+if myInfo >= 1000:
+    print("Good Price")
+elif myInfo <= 1000:
+    print("Low Price")
+else:
+    print("No, Price")

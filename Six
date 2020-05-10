@@ -1,0 +1,19 @@
+#For Loop Example - 1:
+my_Money5 = ["Dollar","Rupee","Ruble"]
+
+for Money in my_Money5:
+      print (Money, "Currancy")
+      
+#For Loop Example - 2:
+for i in range(1000):
+    print ("i= ", i)
+    if (i == 999):
+        break
+
+#While Loop:
+count = 0
+while count < 10:
+    print("Count is less than ten.", count)
+    count+=1
+
+

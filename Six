@@ -2,7 +2,7 @@
 my_Money5 = ["Dollar","Rupee","Ruble"]
 
 for Money in my_Money5:
-      print (Money, "Currancy")
+      print (Money, "Currency")
       
 #For Loop Example - 2:
 for i in range(1000):

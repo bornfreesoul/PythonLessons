@@ -8,3 +8,15 @@ elif myInfo <= 1000:
     print("Low Price")
 else:
     print("No, Price")
+
+#Second Example: 
+from pip._vendor.distlib.compat import raw_input
+
+myInfo = raw_input("Please enter the name: ")
+
+if len(myInfo) <= 1:
+    print("Your name is less than one character, please enter correct the name.")
+elif len(myInfo) >= 5:
+    print("Your name is:", myInfo)
+else:
+    print("Wrong Information Entered")

@@ -1,0 +1,37 @@
+myFood=['bread','milk','rice']
+
+print(myFood)
+for food in myFood:
+    print("I want " + food + ".")
+====================================
+
+myFriends = ["Puneet", "Himanshu", "Dushyant", "Mohit"]
+for mybuddy in myFriends:
+    print(myFriends, 'are my friends.')
+
+==================================
+
+K =1
+while K < 10:
+      print(K)
+      K += 1
+
+======================
+
+number = 0
+while number <= 9:
+    number += 1
+    print("Loop count:", number)
+
+======================
+
+from pip._vendor.distlib.compat import raw_input
+
+myName = raw_input("Please enter your name: ")
+
+while myName == "Kapil":
+    print("You entered the correct name.")
+    break
+else:
+    print("Wrong Input")
+==========================================

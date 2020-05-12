@@ -35,3 +35,7 @@ while myName == "Kapil":
 else:
     print("Wrong Input")
 ==========================================
+
+mCar1 = ["BMW", "Tesla", "Ford"]
+for mycar1 in mCar1:
+    print("Car Maker Name:",mycar1)

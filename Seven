@@ -39,3 +39,12 @@ else:
 mCar1 = ["BMW", "Tesla", "Ford"]
 for mycar1 in mCar1:
     print("Car Maker Name:",mycar1)
+    
+    
+==========================================
+
+index_count = 0
+mCar1 = ["BMW", "Tesla", "Ford"]
+for mycar in mCar1:
+    print([index_count],"Car Maker Name:", mycar)
+    index_count +=1

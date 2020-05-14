@@ -1,0 +1,10 @@
+#Zip operator example:-
+
+myLst1 = ["Reddit","Twitter","Facebook"]
+myLst2 = [1,2,3]
+myLst3 = ["TV", "Internet", "VOD"]
+
+for myLst in zip(myLst1,myLst2,myLst3):
+    print(myLst)
+
+=========================================

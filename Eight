@@ -18,7 +18,7 @@ print(fH)
 
 ==========================================
 
-#To find the first letter from any sentence:-
+#To find the first letter using (.split) function from any sentence:-
 
 kt = "Print't, that the King of this kingdom is keeping his good deeds."
 print(kt)

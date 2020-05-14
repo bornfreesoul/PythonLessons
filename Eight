@@ -17,3 +17,13 @@ fH = ((9/5*mytemp1 + 32))
 print(fH)
 
 ==========================================
+
+#To find the first letter from any sentence:-
+
+kt = "Print't, that the King of this kingdom is keeping his good deeds."
+print(kt)
+for word1 in kt.split():
+    if word1[0] =="k" or word1[0] =="K":
+        print(word1)
+        
+===========================================

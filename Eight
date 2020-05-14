@@ -9,6 +9,8 @@ for myLst in zip(myLst1,myLst2,myLst3):
 
 =========================================
 
+#To find temperature in Fahrenheit:-
+
 from pip._vendor.distlib.compat import raw_input
 mytemp1 = float(input("Please enter the temperature in celcius:"))
 fH = ((9/5*mytemp1 + 32))

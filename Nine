@@ -3,3 +3,13 @@ def square(num):
 my_nums = [1,2,3,4,5]
 for item in map(square,my_nums):
     print(item)
+
+========================================================
+
+
+from pip._vendor.distlib.compat import raw_input
+
+myValue1 = float(raw_input("Please enter the first value, user wants to add:"))
+myValue2 = float(raw_input("Please enter the second value, user wants to add:"))
+Result = (myValue1 + myValue2)
+print(Result)

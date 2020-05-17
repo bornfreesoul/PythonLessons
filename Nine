@@ -39,3 +39,5 @@ if CheckInv1 in Inventory1:
     print("This item is present in the inventory list.")
 else:
     print("User entered item is not present in the list.")
+
+#Thanks to user: https://stackoverflow.com/users/2897372/

@@ -9,7 +9,17 @@ for item in map(square,my_nums):
 
 from pip._vendor.distlib.compat import raw_input
 
-myValue1 = float(raw_input("Please enter the first value, user wants to add:"))
-myValue2 = float(raw_input("Please enter the second value, user wants to add:"))
-Result = (myValue1 + myValue2)
-print(Result)
+print("\n")
+print("*** Welcome to Bank Financial Software Solutions *** ")
+print(" \t ** This is a addition calculator ** ")
+print("\n")
+
+Uvalue1 = float(raw_input("Please enter the first rupee value, user wants to add: \n"))
+Uvalue2 = float(raw_input("Please enter the second rupee value, user wants to add: \n"))
+Result = (Uvalue1 + Uvalue2)
+print("\n")
+
+print("The two amount addition sum is:", Result, "Rupees", "\n")
+
+===========================================================
+

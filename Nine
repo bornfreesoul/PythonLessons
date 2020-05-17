@@ -23,4 +23,19 @@ print("The two amount addition sum is:", Result, "Rupees", "\n")
 
 ===========================================================
 
+from pip._vendor.distlib.compat import raw_input
 
+print("\n")
+print("*** Welcome to the Store Inventory Management Software Solutions *** ")
+print(" \t ** This is a Store Inventory Management Program ** ")
+print("\n")
+
+Inventory1 = ["Rice", "Maze", "Oil", "Toothpaste", "Beans", "Cloth", "Pepper"]
+print("Here are present items list information:", Inventory1)
+
+CheckInv1 = input('Is this item present in the inventory: \n')
+
+if CheckInv1 in Inventory1:
+    print("This item is present in the inventory list.")
+else:
+    print("User entered item is not present in the list.")

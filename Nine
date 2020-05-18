@@ -41,3 +41,15 @@ else:
     print("User entered item is not present in the list.")
 
 #Thanks to user: https://stackoverflow.com/users/2897372/
+
+============================================================
+
+def add_function(num1, num2):
+    return num1+num2
+
+
+Nv1 = float(input("Please enter first amount:"))
+Nv2 = float(input("Please enter second amount:"))
+
+result = add_function(Nv1, Nv2)
+print(result)

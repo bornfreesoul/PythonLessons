@@ -53,3 +53,45 @@ Nv2 = float(input("Please enter second amount:"))
 
 result = add_function(Nv1, Nv2)
 print(result)
+
+====================================================
+
+#Divide function exmaple:- 
+
+def divide_function(num1, num2):
+    return num1/num2
+
+
+Nv1 = float(input("Please enter first amount:"))
+Nv2 = float(input("Please enter second amount:"))
+
+result = divide_function(Nv1, Nv2)
+print(result)
+
+======================================================
+
+#Multiply function exmaple:- 
+
+def multiply_function(num1, num2):
+    return num1*num2
+
+
+Nv1 = float(input("Please enter first amount:"))
+Nv2 = float(input("Please enter second amount:"))
+
+result = multiply_function(Nv1, Nv2)
+print(result)
+
+=========================================================
+
+#Subtract function exmaple:-
+
+def subtract_function(num1, num2):
+    return num1-num2
+
+
+Nv1 = float(input("Please enter first amount:"))
+Nv2 = float(input("Please enter second amount:"))
+
+result = subtract_function(Nv1, Nv2)
+print(result)

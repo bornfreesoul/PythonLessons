@@ -95,3 +95,15 @@ Nv2 = float(input("Please enter second amount:"))
 
 result = subtract_function(Nv1, Nv2)
 print(result)
+
+====================================================
+
+#Squire Function:- 
+
+def create_squires(n1,n2):
+    return (n1**n2)
+
+uv1 = float(input("Please enter the first value:"))
+uv2 = float(input("Please enter the second value:"))
+
+print(create_squires(uv1, uv2))

@@ -141,3 +141,15 @@ DV1 = float(input("Please enter travel distance cover value:"))
 TV2 = float(input("Please enter travel time taken value:"))
 
 print ("The average is:" , (AverageVelocity_function(DV1, TV2)))
+
+=================================================================
+
+#Example of Density per cm*3 function:- 
+
+def Density_function(n1,n2):
+              return (n1/n2)
+
+MV1 = float(input("Please enter total mass value:"))
+VV2 = float(input("Please enter total volume value:"))
+
+print ("The density is (p):" , (Density_function(MV1, VV2)), "g/cm3")

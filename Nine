@@ -131,3 +131,13 @@ LV2 = float(input("Please enter length value:"))
 print ("Area of the triangle is:" , (Rectangle_area(WV1, LV2)))
 
 ======================================================================
+
+#Example of Average velocity function:- 
+
+def AverageVelocity_function(n1,n2):
+              return (n1/n2)
+
+DV1 = float(input("Please enter travel distance cover value:"))
+TV2 = float(input("Please enter travel time taken value:"))
+
+print ("The average is:" , (AverageVelocity_function(DV1, TV2)))

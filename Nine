@@ -117,3 +117,17 @@ uv1 = float(input("Please enter the first value:"))
 uv2 = float(input("Please enter the second value:"))
 
 print(percentage_function(uv1, uv2))
+
+=========================================================
+
+#Example of Rectangle Area function:- 
+
+def Rectangle_area(n1,n2):
+               return (n1*n2)
+
+WV1 = float(input("Please enter width value:"))
+LV2 = float(input("Please enter length value:"))
+
+print ("Area of the triangle is:" , (Rectangle_area(WV1, LV2)))
+
+======================================================================

@@ -155,3 +155,14 @@ VV2 = float(input("Please enter total volume value:"))
 print ("The density is (p):" , (Density_function(MV1, VV2)), "g/cm3")
 
 ====================================================================
+
+#Mean Function Example: 
+
+def Mean_function(n1,n2):
+              return (n1/n2)
+
+MV1 = float(input("Please enter sum of terms value:"))
+TV2 = float(input("Please enter number of terms value:"))
+
+print ("The mean value is (m):" , (Mean_function(MV1, TV2)))
+

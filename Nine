@@ -166,3 +166,23 @@ TV2 = float(input("Please enter number of terms value:"))
 
 print ("The mean value is (m):" , (Mean_function(MV1, TV2)))
 
+====================================================================
+
+def Yield_function1(n1,n2):
+            return (n1*n2)
+ 
+MV1 = float(input("Please enter the monthly dividend value:"))
+TM2 = float(input("Please enter the total month count:"))
+
+print ("The annual yield value is (AYV):" , (Yield_function1(MV1,TM2)))
+
+print("\n")
+
+def Yield_function2(n1,n2):
+            return (n1/n2)
+ 
+AYV2 = float(input("Please enter the annual yield value (AYV):"))
+CV1 = float(input("Please enter the current value:"))
+
+print ("The annual yield value is (AYV) %:" , (Yield_function2(AYV2,CV1)))
+

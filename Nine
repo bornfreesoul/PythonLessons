@@ -186,3 +186,30 @@ CV1 = float(input("Please enter the current value:"))
 
 print ("The annual yield value is (AYV) %:" , (Yield_function2(AYV2,CV1)))
 
+==========================================================================
+
+def Yield_function1(n1,n2):
+            return (n1*n2)
+ 
+MV1 = float(input("Please enter the monthly dividend value:"))
+TM2 = float(input("Please enter the total month count:"))
+
+AYV1 = Yield_function1
+
+print ("The annual yield value is (AYV):" , (AYV1(MV1,TM2)))
+
+
+print("\n")
+
+
+def Yield_function2(n1,n2):
+            return (n1/n2)
+ 
+YV2 = float(input("Please enter the yield value (AYV):"))
+CV1 = float(input("Please enter the current value:"))
+
+AYV2 = Yield_function2
+
+print ("The annual yield value is (AYV) %:" , (AYV2(YV2,CV1)))
+
+

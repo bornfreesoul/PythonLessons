@@ -212,4 +212,13 @@ AYV2 = Yield_function2
 
 print ("The annual yield value is (AYV) %:" , (AYV2(YV2,CV1)))
 
+==========================================================================
 
+#Absolute returns of a Mutual Fund:-
+
+AV1 = float(input("Please enter the appreciated value:"))
+PV2 = float(input("Please enter the purchased value:"))
+
+ARV = ((AV1 - PV2)*100/PV2)
+
+print ("The absolute return value is (ARV):",ARV,"%")

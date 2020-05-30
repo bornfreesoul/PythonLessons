@@ -222,3 +222,21 @@ PV2 = float(input("Please enter the purchased value:"))
 ARV = ((AV1 - PV2)*100/PV2)
 
 print ("The absolute return value is (ARV):",ARV,"%")
+
+=====================================================================
+
+print(" *** Net Asset Value Application *** ")
+
+print("\n")
+
+#The net value of an asset = (Total asset – total liabilities)/ total outstanding shares
+
+TAV = float(input("Please enter the Total Asset Value: "))
+EL = float(input("Please enter the Existing liabilities: "))
+OU = float(input("Please enter the Outstanding units: "))
+
+NAV1 = TAV-EL
+
+NAV2 = NAV1/OU
+
+print("The Net Asset Value is:", NAV2)

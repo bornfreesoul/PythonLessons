@@ -240,3 +240,28 @@ NAV1 = TAV-EL
 NAV2 = NAV1/OU
 
 print("The Net Asset Value is:", NAV2)
+
+======================================================================
+
+print(" *** Simple Interest Application Calculator *** ")
+
+print ("\n")
+
+#SI = = P(1 + rt)
+
+#SI - Simple Interest, P  - Principal, R  - Rate, T  - Term
+
+P = float(input("Please enter the Principal amount value: "))
+R = float(input("Please enter the Rate of interest value: "))
+T = float(input("Please enter the Terms in years count: "))
+
+RV = R/100
+
+SI1 = 1+RV*T
+
+SI2 = P * SI1
+
+print(SI2)
+
+===========================================================================
+

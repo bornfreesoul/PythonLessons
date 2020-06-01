@@ -265,3 +265,14 @@ print(SI2)
 
 ===========================================================================
 
+def ExpenseRatio_function(n1,n2):
+                  return (n1/n2)
+
+# Expense Ratio =	Total Operating Expenses / Average Net Asset Value
+
+OE1 = float(input("Please enter the total Operating expenses value:"))
+NA2 = float(input("Please enter the Average net asset value:"))
+
+print ("The total expense ratio is (PE):",(ExpenseRatio_function(OE1, NA2)))
+
+==============================================================================

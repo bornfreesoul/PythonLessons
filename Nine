@@ -276,3 +276,20 @@ NA2 = float(input("Please enter the Average net asset value:"))
 print ("The total expense ratio is (PE):",(ExpenseRatio_function(OE1, NA2)))
 
 ==============================================================================
+
+print ("*** Application for Total Return Formula ***")
+
+print ("\n")
+
+CV = float(input("Please enter the Current vlaue of shares:"))
+CD = float(input("Please enter the Cash Distributions value:"))
+IN = float(input("Please enter the Initial Investment value:"))
+
+#Mutual Fund Total Return Formula:-
+#Total_Profit_Loss	=	Current Value of Shares + Cash Distributions – Initial Investment
+
+TPL = CV + CD - IN
+
+print ("The total return formula value is:" , (TPL))
+
+================================================================================

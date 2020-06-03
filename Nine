@@ -293,3 +293,18 @@ TPL = CV + CD - IN
 print ("The total return formula value is:" , (TPL))
 
 ================================================================================
+
+print ("*** Application for Total Sale Amount Formula ***")
+
+print ("\n")
+
+SP = float(input("Please enter the Selling Price value:"))
+ST = float(input("Please enter the Sale Tax value:"))
+
+#Total sale amount = selling price + sales tax.
+
+TSA = SP + ST 
+
+print ("The total sale amount value is:" , (TSA))
+
+==================================================================================

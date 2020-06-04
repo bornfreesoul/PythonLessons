@@ -308,3 +308,16 @@ TSA = SP + ST
 print ("The total sale amount value is:" , (TSA))
 
 ==================================================================================
+
+def TaxRate_function(n1,n2):
+              return (n1/n2)
+
+TE1 = float(input("Please enter total Tax Expenses value:"))
+IT2 = float(input("Please enter total Taxable Income value:"))
+
+#Effective Tax Rate for Individual = Total Tax Expenses / Taxable Income
+
+print ("The Effective Tax Rate for Individual is:",(TaxRate_function(TE1, IT2)))
+
+==================================================================================
+

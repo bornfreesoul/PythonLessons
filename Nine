@@ -321,3 +321,14 @@ print ("The Effective Tax Rate for Individual is:",(TaxRate_function(TE1, IT2)))
 
 ==================================================================================
 
+def TaxRateCorporation_function(n1,n2):
+                        return (n1/n2)
+
+TE1 = float(input("Please enter total Tax Expenses value:"))
+ET2 = float(input("Please enter total Earnings Before Taxes value:"))
+
+#Effective Tax Rate for Corporation = Total Tax Expenses / Earnings Before Taxes
+
+print ("The Effective Tax Rate for Corporation is:",(TaxRate_function(TE1, ET2)))
+
+==================================================================================

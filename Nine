@@ -332,3 +332,15 @@ ET2 = float(input("Please enter total Earnings Before Taxes value:"))
 print ("The Effective Tax Rate for Corporation is:",(TaxRate_function(TE1, ET2)))
 
 ==================================================================================
+
+def MarginalTaxRate_function(n1,n2):
+                    return (n1/n2)
+
+TP1 = float(input("Please enter total Tax Payable value:"))
+TI2 = float(input("Please enter total Taxable Income value:"))
+
+#Marginal Tax Rate Formula = Tax Payable / Taxable Income
+
+print ("The Marginal Tax Rate Formula is:",(MarginalTaxRate_function(TP1, TI2)))
+
+==================================================================================

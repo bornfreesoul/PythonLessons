@@ -344,3 +344,14 @@ TI2 = float(input("Please enter total Taxable Income value:"))
 print ("The Marginal Tax Rate Formula is:",(MarginalTaxRate_function(TP1, TI2)))
 
 ==================================================================================
+
+def ProfitMargin_function(n1,n2):
+                  return (n1/n2)
+
+NP1 = float(input("Please enter Net Profit After Tax value:"))
+NS2 = float(input("Please enter Net Sales value:"))
+
+#Profit Margin Formula = Net Profit After Tax / Net Sales 
+
+print ("The Profit Margin is:",(ProfitMargin_function(NP1, NS2)))
+==================================================================================

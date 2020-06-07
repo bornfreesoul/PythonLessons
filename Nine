@@ -355,3 +355,16 @@ NS2 = float(input("Please enter Net Sales value:"))
 
 print ("The Profit Margin is:",(ProfitMargin_function(NP1, NS2)))
 ==================================================================================
+
+#Relative Frequency  = Successful trials / Total number of trials 
+
+def RelativeFrequency_function(n1,n2):
+                         return(n1/n2)
+
+ST1 = float(input("Please enter the successful trials count:"))
+TT2 = float(input("Please enter the number of trials count:"))
+
+RF = RelativeFrequency_function(ST1, TT2) * 100
+
+print("The Relative frequency percentage is:",RF, "%")
+==================================================================================

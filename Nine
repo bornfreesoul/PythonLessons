@@ -368,3 +368,19 @@ RF = RelativeFrequency_function(ST1, TT2) * 100
 
 print("The Relative frequency percentage is:",RF, "%")
 ==================================================================================
+
+print ("*** Application for Speed calaculation Formula ***")
+
+print ("\n")
+
+DV = float(input("Please enter the Distance in meters value:"))
+TV = float(input("Please enter the Time taken in hours value:"))
+
+# S = D/T
+
+DV1 = DV/1000
+
+Speed = DV1 / TV 
+
+print ("The total Speed is:" , (Speed), "KM per hrs.")
+==================================================================================

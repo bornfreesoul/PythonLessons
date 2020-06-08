@@ -400,3 +400,17 @@ Time = DV1 / SV
 
 print ("Total Time taken to cover the distance is", (Time), "hours.")
 ==================================================================================
+
+print ("*** Application for Distance calaculation Formula ***")
+
+print ("\n")
+
+SV = float(input("Please enter the Speed per hour value:"))
+TV = float(input("Please enter the time in hours value:"))
+
+# D = S * T
+
+Distance = SV * TV
+
+print ("Total Distance going to be covered is", (Distance), "KM.")
+==================================================================================

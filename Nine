@@ -384,3 +384,19 @@ Speed = DV1 / TV
 
 print ("The total Speed is:" , (Speed), "KM per hrs.")
 ==================================================================================
+
+print ("*** Application for Time calaculation Formula ***")
+
+print ("\n")
+
+DV = float(input("Please enter the Distance in meters value:"))
+SV = float(input("Please enter the Speed per hour value:"))
+
+# T = D/S
+
+DV1 = DV/1000
+
+Time = DV1 / SV 
+
+print ("Total Time taken to cover the distance is", (Time), "hours.")
+==================================================================================

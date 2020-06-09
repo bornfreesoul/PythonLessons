@@ -413,4 +413,17 @@ TV = float(input("Please enter the time in hours value:"))
 Distance = SV * TV
 
 print ("Total Distance going to be covered is", (Distance), "KM.")
+
+==================================================================================
+
+print ("*** Application for Average Power Calculator ***")
+
+print ("\n")
+
+EV = float(input("Please enter the Energy in joules value:"))
+TV = float(input("Please enter the time period in seconds value:"))
+
+P = EV / TV
+
+print ("Total average power P in watts (W) is", (P))
 ==================================================================================

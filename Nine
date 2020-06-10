@@ -439,4 +439,19 @@ SP = float(input("Please enter the Share price value:"))
 EV = SO * SP
 
 print ("Total Equity value (EV) is", (EV))
+
 ==================================================================================
+
+print ("*** Application for Volume Calculator ***")
+
+print ("\n")
+
+LV = float(input("Please enter the Length value:"))
+WV = float(input("Please enter the Width value:"))
+HV = float(input("Please enter the Hight value:"))
+
+V = LV * WV * HV
+
+print ("Total Volume (V) is", (V), "meters3.")
+
+===================================================================================

@@ -426,4 +426,17 @@ TV = float(input("Please enter the time period in seconds value:"))
 P = EV / TV
 
 print ("Total average power P in watts (W) is", (P))
+
+==================================================================================
+
+print ("*** Application for Equity Value Calculator ***")
+
+print ("\n")
+
+SO = float(input("Please enter the Share outstanding value:"))
+SP = float(input("Please enter the Share price value:"))
+
+EV = SO * SP
+
+print ("Total Equity value (EV) is", (EV))
 ==================================================================================

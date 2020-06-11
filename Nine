@@ -455,3 +455,16 @@ V = LV * WV * HV
 print ("Total Volume (V) is", (V), "meters3.")
 
 ===================================================================================
+
+print ("*** Application for Average Speed Calculator ***")
+
+print ("\n")
+
+TV = float(input("Please enter the Total distance value:"))
+EV = float(input("Please enter the elapsed time value:"))
+
+AS = TV / EV
+
+print ("Total Average speed is",(AS),"Km/hrs.")
+
+===================================================================================

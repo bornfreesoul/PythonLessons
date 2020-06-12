@@ -468,3 +468,19 @@ AS = TV / EV
 print ("Total Average speed is",(AS),"Km/hrs.")
 
 ===================================================================================
+
+print ("*** Application for Simple Interest  Calculator ***")
+
+print ("\n")
+
+PV = float(input("Please enter the Total principal value:"))
+RV = float(input("Please enter the Interest rate value:"))
+TV = float(input("Please enter the Time periods value:"))
+
+R2 = RV/100
+
+I = PV * R2 * TV
+
+print ("The Simple Interest is:",(I))
+
+===================================================================================

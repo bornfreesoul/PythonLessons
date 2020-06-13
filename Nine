@@ -484,3 +484,23 @@ I = PV * R2 * TV
 print ("The Simple Interest is:",(I))
 
 ===================================================================================
+
+print (" *** Application for calculation Mean value *** ")
+
+print("\n")
+
+FV = float(input("Please enter the first value:"))
+SV = float(input("Please enter the second value:"))
+TV = float(input("Please enter the third value:"))
+TTV = float(input("Please enter the number of terms count:"))
+
+print("\n")
+
+M1 = FV + SV + TV 
+
+M2 = M1/TTV 
+
+print("The mean value is:",M2)
+
+
+===================================================================================

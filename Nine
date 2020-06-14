@@ -504,3 +504,15 @@ print("The mean value is:",M2)
 
 
 ===================================================================================
+
+#Price-to-Earnings Ratio = Price per Share / Annual Earnings per Share
+
+def PriceToEarningsRatio_function(n1,n2):
+                           return(n1/n2)
+
+SP1 = float(input("Please enter the share price value:"))
+AE2 = float(input("Please enter the annual earnings value:"))
+
+print("The Price to Earnings Ratio is:",PriceToEarningsRatio_function(SP1, AE2), "%")
+
+===================================================================================

@@ -516,3 +516,16 @@ AE2 = float(input("Please enter the annual earnings value:"))
 print("The Price to Earnings Ratio is:",PriceToEarningsRatio_function(SP1, AE2), "%")
 
 ===================================================================================
+
+print ("*** Application for Stock Turnover Calculator ***")
+
+print ("\n")
+
+CSV = float(input("Please enter the Cost of Sales:"))
+ASV = float(input("Please enter the Average Stock value:"))
+
+ST = CSV / ASV
+
+print ("Total Stock Turnover is",(ST))
+	
+===================================================================================

@@ -16,6 +16,7 @@ else:
   print(name, "you are a minior!")
   
 ===========================================================
+#Use of % for data placement
 
 a = 59
 b = "Dell"
@@ -27,3 +28,15 @@ print("This company name is %s. And the total data centers count is %s." % (b,a)
 This company name is Dell. And the total data centers count is 59.
 
 ===========================================================
+
+#Use of format method
+
+a = 59
+b = "Dell"
+
+print("\n")
+
+print("This company name is {0}. And the total data centers count is {1}.".format(b,a))
+
+#Output:
+This company name is Dell. And the total data centers count is 59.

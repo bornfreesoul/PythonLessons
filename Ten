@@ -1,0 +1,18 @@
+#Use of input function:-
+
+name = input("Please enter your name:")
+
+age = int(input("Please enter your age:"))
+
+print("\n")
+
+print ("Entered details:",name,",",age)
+
+print("\n")
+
+if(age >= 18):
+  print(name, "you are a adult!")
+else:
+  print(name, "you are a minior!")
+  
+===========================================================

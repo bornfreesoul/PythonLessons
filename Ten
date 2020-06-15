@@ -40,3 +40,21 @@ print("This company name is {0}. And the total data centers count is {1}.".forma
 
 #Output:
 This company name is Dell. And the total data centers count is 59.
+
+=============================================================================================
+
+#Use of f-strings 
+
+a = 59
+b = "Dell"
+
+print("\n")
+
+print(f"This company name is {b}. And the total data centers count is {a}.")
+
+#Output:
+Use of f-strings
+
+This company name is Dell. And the total data centers count is 59.
+
+=============================================================================================

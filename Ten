@@ -16,3 +16,14 @@ else:
   print(name, "you are a minior!")
   
 ===========================================================
+
+a = 59
+b = "Dell"
+
+print("\n")
+print("This company name is %s. And the total data centers count is %s." % (b,a))
+
+#Output:
+This company name is Dell. And the total data centers count is 59.
+
+===========================================================

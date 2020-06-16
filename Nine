@@ -529,3 +529,19 @@ ST = CSV / ASV
 print ("Total Stock Turnover is",(ST))
 	
 ===================================================================================
+
+print ("*** Application for Expecting Returns Calculator ***")
+
+print ("\n")
+
+CPV = float(input("Please enter the Closing Price:"))
+OPV = float(input("Please enter the Opening Price value:"))
+
+ER1 = CPV - OPV
+ER2 = ER1/OPV
+ER3 = ER2 * 100
+#Expecting Returns
+
+print ("Total Expecting Returns is",(ER3),"%")
+
+===================================================================================

@@ -545,3 +545,19 @@ ER3 = ER2 * 100
 print ("Total Expecting Returns is",(ER3),"%")
 
 ===================================================================================
+
+print ("*** Application to calculate the Gross Profit ***")
+
+def GP_function(n1, n2):
+  return(n1-n2)
+
+print ("\n")
+
+#Gross Profit = Revenue - Cost
+
+RV = float(input("Please enter the revenue value:"))
+CV = float(input("Please enter the cost value:"))
+
+print("The gross profit value is:",(RV-CV) )
+
+===================================================================================

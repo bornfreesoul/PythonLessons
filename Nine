@@ -578,4 +578,18 @@ print("The markup value is:",(MV_function(GPV, CV)))
 
 =====================================================================================
 
+print ("*** Application to calculate the Gross Margin ***")
 
+def GM_function(n1,n2):
+  return(n1/n2)
+
+print ("\n")
+
+#Gross Margin = Gross Profit / Revenue
+
+GPV = float(input("Please enter the gross profit value:"))
+RV = float(input("Please enter the revenue value:"))
+
+print("The Gross Margin is:",(GM_function(GPV, RV)))
+
+=====================================================================================

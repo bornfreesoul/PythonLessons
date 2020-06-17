@@ -558,6 +558,24 @@ print ("\n")
 RV = float(input("Please enter the revenue value:"))
 CV = float(input("Please enter the cost value:"))
 
-print("The gross profit value is:",(RV-CV) )
+print("The gross profit value is:",(GP_function(RV, CV))
 
 ===================================================================================
+
+print ("*** Application to calculate the Markup Value ***")
+
+def MV_function(n1,n2):
+  return(n1/n2)
+
+print ("\n")
+
+#Markup = Gross Profit / Cost
+
+GPV = float(input("Please enter the gross profit value:"))
+CV = float(input("Please enter the cost value:"))
+
+print("The markup value is:",(MV_function(GPV, CV)))
+
+=====================================================================================
+
+

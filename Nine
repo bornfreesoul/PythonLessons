@@ -593,3 +593,19 @@ RV = float(input("Please enter the revenue value:"))
 print("The Gross Margin is:",(GM_function(GPV, RV)))
 
 =====================================================================================
+
+print ("*** Application to calculate the Average Acceleration ***")
+
+def AA_function(n1, n2):
+  return(n1/n2)
+
+print ("\n")
+
+#Average Acceleration = V/T
+
+VV = float(input("Please enter the final velocity value in KM:"))
+TV = float(input("Please enter the elapsed time value in hours:"))
+
+print("The Average Acceleration value is:",(AA_function(VV, TV)),"KM per hour")
+
+=====================================================================================

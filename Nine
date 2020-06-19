@@ -609,3 +609,18 @@ TV = float(input("Please enter the elapsed time value in hours:"))
 print("The Average Acceleration value is:",(AA_function(VV, TV)),"KM per hour")
 
 =====================================================================================
+
+print(" **** Application to calculate surface tension. **** ")
+
+def force_function(n1,n2):
+          return (n1/n2)
+
+print("\n")
+#T = F/L
+
+FV = float(input("Please enter the force per unit length in Newton: "))
+LV = float(input("Please enter length in which force act in per Meter: "))
+
+print("The surface tension of the liquid:", force_function(FV, LV), "N/m")
+
+======================================================================================

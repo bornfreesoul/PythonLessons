@@ -624,3 +624,16 @@ LV = float(input("Please enter length in which force act in per Meter: "))
 print("The surface tension of the liquid:", force_function(FV, LV), "N/m")
 
 ======================================================================================
+
+print(" **** Application to calculate Fahrenheit Temperature. **** ")
+
+print("\n")
+#F = (C * 1.8) + 32
+
+CV = float(input("Please enter the Temperature in Celsius: "))
+
+FV = (CV * 1.8) + 32
+
+print("The Temperature in Fahrenheit is:",FV)
+
+======================================================================================

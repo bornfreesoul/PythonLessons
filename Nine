@@ -637,3 +637,20 @@ FV = (CV * 1.8) + 32
 print("The Temperature in Fahrenheit is:",FV)
 
 ======================================================================================
+
+print(" **** Application to calculate Celsius Temperature. **** ")
+
+print("\n")
+
+#C = (F-32)/1.8
+
+FV = float(input("Please enter the Temperature in Fahrenheit: "))
+
+CV = (FV-32)/1.8
+
+#("%.2f" % a) - Limiting floats to two decimal points
+print("\n")
+
+print("The Temperature in Celsius is:%.2f" %CV)
+
+======================================================================================

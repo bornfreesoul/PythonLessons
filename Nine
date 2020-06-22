@@ -654,3 +654,29 @@ print("\n")
 print("The Temperature in Celsius is:%.2f" %CV)
 
 ======================================================================================
+
+print ("*** Application to calculate the Wave Energy Density ***")
+
+print ("\n")
+
+# The wave energy formula is given by, WDV * EGV * (H * H)/16
+
+WHV1 = float(input("Please enter the Wave height (H) in meters:"))
+
+WHV2 = WHV1 * WHV1
+
+#Water density ρ = 999.97 kg/m3
+WDV = 999.97
+
+#Gravity g = 9.8 m/s2
+EGV = 9.8
+
+WED1 = WDV * EGV * WHV2 
+
+WED2 = WED1 / 16
+
+print ("\n")
+
+print("The the Wave Energy Density value is: %.2f" %WED2,"J")
+
+======================================================================================

@@ -680,3 +680,23 @@ print ("\n")
 print("The the Wave Energy Density value is: %.2f" %WED2,"J")
 
 ======================================================================================
+
+print ("*** Application to calculate the transformer formula ***")
+
+print ("\n")
+
+# primary voltage (Vp = Np / Ns * Vs)
+
+NPV = float(input("Please enter the number of turns in the primary:"))
+NSV = float(input("Please enter number of turns in the secondary:"))
+VSV = float(input("Please enter the secondary voltage:"))
+
+VPV1 = NPV / NSV 
+
+VPV2 = VPV1 * VSV
+
+print ("\n")
+
+print("The the transformer formula value (Vp) is: %.2f" %VPV2,"V")
+
+=======================================================================================

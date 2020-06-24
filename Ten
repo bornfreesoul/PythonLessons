@@ -95,3 +95,25 @@ Solution:-
 
 Original list:- [1, 2, 3, 4, 4, 3, 2, 1]
 Updated list: [1, 2, 3, 4]
+
+============================================================================
+
+print ("*** Simple example to remove two lists duplicates ***")
+
+print ("\n")
+
+list1 = ['a','b','c','d']
+list2 = ['d','c','b','a']
+
+list3 = list1 + list2
+
+print(list3)
+
+list4 = list(dict.fromkeys(list3))
+print(list4)
+
+
+Solution:-
+*** Simple example to remove two lists duplicates ***
+['a', 'b', 'c', 'd', 'd', 'c', 'b', 'a']
+['a', 'b', 'c', 'd']

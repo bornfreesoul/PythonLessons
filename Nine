@@ -700,3 +700,28 @@ print ("\n")
 print("The the transformer formula value (Vp) is: %.2f" %VPV2,"V")
 
 =======================================================================================
+
+print ("*** Application to know the current density of an object ***")
+
+def CDV_function(n1,n2):
+        return (n1/n2)
+
+print ("\n")
+
+IV = float(input("Please enter the current flowing through the conductor in Amperes:"))
+AV = float(input("Please enter the denotes the cross-section area in m2:"))
+
+print("The  current density is:",CDV_function(IV,AV))
+
+----------------------------------------------------------------------------------------
+
+print ("*** Application to know the current density of an object ***")
+
+print ("\n")
+
+IV = float(input("Please enter the current flowing through the conductor in Amperes:"))
+AV = float(input("Please enter the denotes the cross-section area in m2:"))
+
+CDV = IV/AV
+
+print("The  current density is:",CDV)

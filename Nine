@@ -742,16 +742,16 @@ print("The probability of an event is:",PEV_function(OFV,TOV))
 
 --------------------------------------------------------------------------------------------
 
-print ("*** Application to know the probability of an event ***")
+pprint ("*** Application to know the probability of an event ***")
 
 print ("\n")
 
 #P(E) = (Number of outcomes favorable)/(Total number of outcomes)
 OFV = float(input("Please enter the current Number of outcomes favorable:"))
-TOV = float(input("Please enter the Total number of outcomes:"))
+TOV = float(input("Please enter the total number of outcomes:"))
 
 PEV = OFV/TOV
 
-print("The  current density is:",PEV)
+print("The probability of an event is:", PEV)
 
 =============================================================================================

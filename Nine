@@ -725,3 +725,33 @@ AV = float(input("Please enter the denotes the cross-section area in m2:"))
 CDV = IV/AV
 
 print("The  current density is:",CDV)
+
+=========================================================================================
+
+print ("*** Application to know the probability of an event ***")
+
+def PEV_function(n1,n2):
+        return (n1/n2)
+
+print ("\n")
+#P(E) = (Number of outcomes favorable)/(Total number of outcomes)
+OFV = float(input("Please enter the current Number of outcomes favorable:"))
+TOV = float(input("Please enter the Total number of outcomes:"))
+
+print("The probability of an event is:",PEV_function(OFV,TOV))
+
+--------------------------------------------------------------------------------------------
+
+print ("*** Application to know the probability of an event ***")
+
+print ("\n")
+
+#P(E) = (Number of outcomes favorable)/(Total number of outcomes)
+OFV = float(input("Please enter the current Number of outcomes favorable:"))
+TOV = float(input("Please enter the Total number of outcomes:"))
+
+PEV = OFV/TOV
+
+print("The  current density is:",PEV)
+
+=============================================================================================

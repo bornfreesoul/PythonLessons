@@ -117,3 +117,12 @@ Solution:-
 *** Simple example to remove two lists duplicates ***
 ['a', 'b', 'c', 'd', 'd', 'c', 'b', 'a']
 ['a', 'b', 'c', 'd']
+
+=====================================================
+
+#Print list in simple string. 
+
+TSV = ["Gods", "Us", "Humans"] 
+print(TSV)
+print("",(TSV)) 
+print(" ".join(TSV)) 

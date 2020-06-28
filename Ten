@@ -126,3 +126,19 @@ TSV = ["Gods", "Us", "Humans"]
 print(TSV)
 print("",(TSV)) 
 print(" ".join(TSV)) 
+
+==========================================================
+
+print("*** Two function call example ***")
+
+def add_function(n1,n2):
+          return(n1+n2)
+
+def subtract_function(n1,n2):
+              return(n1-n2)
+
+print("First function value is:",add_function(9,3))
+
+print("Second function value is:",subtract_function(9,3))
+
+==========================================================

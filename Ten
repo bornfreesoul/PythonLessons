@@ -142,3 +142,28 @@ print("First function value is:",add_function(9,3))
 print("Second function value is:",subtract_function(9,3))
 
 ==========================================================
+
+print ("*** Three function call application example ***")
+
+def MUL_function(n1,n2):
+        return (n1*n2)
+
+def DEV_function(n1,n2):
+        return (n1/n2)
+
+def SQY1_function(n1,n2):
+        return(n1*2, n2*2)
+
+def SQY2_function(n1,n2):
+        return(n1**2, n2**2)
+
+print ("\n")
+print("The multiply function call result is:",MUL_function(3,3))
+print ("\n")
+print("The divide function call result is:",DEV_function(10,5))
+print ("\n")
+print("The squre root function call result is:",SQY1_function(10,5))
+print ("\n")
+print("The squre root function call result is:",SQY2_function(10,5))
+
+=====================================================================

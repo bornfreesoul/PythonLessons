@@ -766,4 +766,17 @@ TTDA = 72 / RRV
 
 print ("The years taken to double the amount is:", TTDA)
 
+--------------------------------------------------------------------
+
+print ("*** Application to calculate time to double amount ***")
+
+#TTDA = 72 / Rate of Return 
+
+def doubleAmt_function(n1,n2):
+              return(n1/n2)
+print("\n")
+
+print ("The years taken to double the amount is:", doubleAmt_function(72,15))
+
 =============================================================================================
+

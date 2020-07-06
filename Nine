@@ -755,3 +755,15 @@ PEV = OFV/TOV
 print("The probability of an event is:", PEV)
 
 =============================================================================================
+
+print ("*** Application to calculate time to double amount ***")
+
+#TTDA = 72 / Rate of Return 
+print("\n")
+RRV = float(input("Please enter the rate of return %: "))
+print("\n")
+TTDA = 72 / RRV 
+
+print ("The years taken to double the amount is:", TTDA)
+
+=============================================================================================

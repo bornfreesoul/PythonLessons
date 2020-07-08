@@ -186,3 +186,10 @@ print ("\n")
 print("The squre root function call result is:",SQY1_function(10,5), "& The squre root function call result is:", SQY2_function(10,5))
 
 =========================================================================================================================================
+
+import keyword
+print(keyword.kwlist)
+
+print ("\nTotal number of keywords: ", len(keyword.kwlist))
+
+============================================================================================================================================

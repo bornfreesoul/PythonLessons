@@ -791,5 +791,19 @@ print("Time to double the investment is:",SeventyTwo_function(72,UV))
 
 ----------------------------------------------------------------------
 
+print("*** Money Rule of 72 ***")
+
+def SeventyTwo_function(n1,n2):
+          return(n1/n2)
+print("\n")
+UV = float(input("Please enter the value of rate of interest:"))
+print("\n")
+print("Time to double the investment in years is:",SeventyTwo_function(72,UV))
+print("\n")
+AI = float(input("Please enter the amount value invested:"))
+print("\n")
+FF = AI * 2
+print("The final double amount value is:",FF, "after",SeventyTwo_function(72,UV),"years of investment.")
+
 =============================================================================================
 

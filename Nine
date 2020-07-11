@@ -778,5 +778,16 @@ print("\n")
 
 print ("The years taken to double the amount is:", doubleAmt_function(72,15))
 
+----------------------------------------------------------------------
+
+print("*** Rule of 72 ***")
+
+def SeventyTwo_function(n1,n2):
+          return(n1/n2)
+print("\n")
+UV = float(input("Please enter the value of rate of interest "))
+print("\n")
+print("Time to double the investment is:",SeventyTwo_function(72,UV))
+
 =============================================================================================
 

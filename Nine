@@ -789,5 +789,7 @@ UV = float(input("Please enter the value of rate of interest "))
 print("\n")
 print("Time to double the investment is:",SeventyTwo_function(72,UV))
 
+----------------------------------------------------------------------
+
 =============================================================================================
 

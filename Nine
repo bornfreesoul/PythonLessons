@@ -805,5 +805,28 @@ print("\n")
 FF = AI * 2
 print("The final double amount value is:",FF, "after",SeventyTwo_function(72,UV),"years of investment.")
 
+-----------------------------------------------------------------------
+
+while loop == 1:
+    x = input("Press 0 to exit otherwise anything to continue:")
+    if x == "0":
+      break
+
+    print ("*** Money Application ***")
+    print("\n")
+    print("Money Call")
+
+    def SeventyTwo_function(n1,n2):
+              return(n1/n2)
+
+    print("\n")
+    UV = float(input("Please enter the value of rate of interest:"))
+    print("\n")
+    print("Time to double the investment in years is:",SeventyTwo_function(72,UV))
+    print("\n")
+    AI = float(input("Please enter the amount value invested:"))
+    print("\n")
+    FF = AI * 2
+    print("The final double amount value is:",FF, "after",SeventyTwo_function(72,UV),"years of investment.")
 =============================================================================================
 

@@ -833,3 +833,58 @@ while loop == 1:
     
 =============================================================================================
 
+# 1 Equates a loop.
+loop = 1 
+
+# Contains the player's choice
+choice = 0 
+
+while loop == 1:
+
+# Print what options you have
+    print ("\n")
+    print ("Simple Math Calculator Program!")
+
+    print ("\n")
+    print ("Select your function by typing its designated number.")
+
+    print ("\n")
+    print ("1) Addition")
+    print ("2) Subtraction")
+    print ("3) Multiplication")
+    print ("4) Division")
+    print ("5) Exit")
+    print ("\n")
+
+# Allows for raw input to be read
+    choice = float(input("Choose your option: ").strip())
+
+    if choice == 1:
+        add1 = float(input("Please enter value of the first amount: "))
+        add2 = float(input("Please enter value of the second amount: "))
+        print ("\n")
+        print (add1, "+", add2, "=", add1 + add2)
+
+    elif choice == 2:
+        sub2 = float(input("Please enter value of the first amount: "))
+        sub1 = float(input("Please enter value of the second amount: "))
+        print ("\n")
+        print (sub1, "-", sub2, "=", sub1 - sub2)
+
+    elif choice == 3:
+        mul1 = float(input("Please enter value of the first amount: "))
+        mul2 = float(input("Please enter value of the second amount: "))
+        print ("\n")
+        print (mul1, "*", mul2, "=", mul1 * mul2)
+
+    elif choice == 4:
+        div1 = float(input("Please enter value of the first amount: "))
+        div2 = float(input("Please enter value of the second amount: "))
+        print ("\n")
+        print (div1, "/", div2, "=", div1 / div2)
+
+    elif choice == 5:
+        loop = 0
+
+    print ("Thanks for using simple math calculator.")
+

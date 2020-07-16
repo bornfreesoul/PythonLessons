@@ -1,0 +1,42 @@
+16/07/2020
+
+Formatting Examples:-
+
+I/P:
+a = "Kapil"
+b = "example"
+print("Hello, {} this is a simple {}.".format(a,b))
+
+O/P:
+Hello, Kapil this is a simple example.
+
+-----------------------------------------------------
+I/P:
+print("Hello, {a} this is a simple {b}.".format(a="Kapil",b="example"))
+
+O/P:
+Hello, Kapil this is a simple example.
+
+------------------------------------------------------
+
+I/P:
+a = "Kapil"
+b = "example"
+print("Hello, {0} this is a simple {1}.".format(a,b))
+
+O/P:
+Hello, Kapil this is a simple example.
+
+------------------------------------------------------
+
+I/P:
+a = "Kapil"
+b = "example"
+print("Hello, {0} this is a simple {1} for this {extra}.".format(a,b, extra = "sentence"))
+
+O/P:
+Hello, Kapil this is a simple example for this sentence.
+
+------------------------------------------------------
+AI - 2.6
+

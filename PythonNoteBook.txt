@@ -1,4 +1,64 @@
+17/07/2020
+----------
+
+Operators Examples:-
+
+Floor Division(//):
+I/P:
+a = 15
+b = 7
+
+c = a//b
+
+print("The {x} of the {y} division is {c1}".format(c1 = c,x="value",y="floor"))
+
+O/P:
+The value of the floor division is 2
+
+-------------------------------------------------------------
+
+If-else example:
+
+Uv =  11
+if Uv <= 10:
+	print("The value is less than ten!")
+else:
+	print("The value greator than ten!")
+
+
+--------------------------------------------------------------
+
+elif example:
+
+Uv =  12
+if Uv <= 10:
+	print("The value is less than ten!")
+elif Uv == 12:
+	print("The value matched.")
+else:
+	print("The value greator than ten!")
+
+----------------------------------------------------
+
+num1 = 15
+num2 = 14
+num3 = 11
+
+if (num1 >= num2) and (num1 >= num3):
+	  largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+	  largest = num2
+else:
+          largest = num3
+print("The high value is {}".format(largest))
+
+====================================================================================
+AI - 2.8
+
+
+
 16/07/2020
+----------
 
 Formatting Examples:-
 
@@ -38,5 +98,9 @@ O/P:
 Hello, Kapil this is a simple example for this sentence.
 
 ------------------------------------------------------
-AI - 2.6
+
+
+
+
+
 

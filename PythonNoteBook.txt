@@ -52,8 +52,70 @@ Please enter the number:16
 16 is divisible by 4
 16 is divisible by 8
 16 is NOT a Prime number 
+
+-------------------------------------------------------
+
+I/P:
+Alist = [1,2,3,4,5]
+
+Box = 1
+for itm in Alist:
+    Box *= itm
+
+    print("The final value of Box is {}".format(Box))
+    print("\n")
+else:
+  print("No, items left in the list now.")
+
+
+O/P:
+The final value of Box is 1
+The final value of Box is 2
+The final value of Box is 6
+The final value of Box is 24
+The final value of Box is 120
+No, items left in the list now.
+
+-----------------------------------------------------
+
+I/P:
+lst = ["Kapil","Apil","Triple","Arpil"]
+
+#for index in range(len(lst)):
+#  print(lst[index])
+
+for ele in lst:
+  print(ele)
+
+O/P:
+Kapil
+Apil
+Triple
+Arpil
+
+--------------------------------------------------------
+
+I/P:
+lst = [1,2,3,4,5]
+
+for ele in lst:
+	print(ele)
+else:
+	print("Items in the list now completed.)
+
+O/P:
+1
+2
+3
+4
+5
+Items in the list now completed.
+
+---------------------------------------------
+
+
 ====================================================================================
-AI - 2.9
+AI - 2.10
 
 17/07/2020
 ----------

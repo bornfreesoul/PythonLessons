@@ -1,3 +1,60 @@
+18/07/2020
+----------
+
+While Loop Examples:-
+
+Alist = [1,2,3,4,5]
+
+Box = 1
+Count = 0
+
+while Count < len(Alist):
+  Box *= Alist[Count]
+  Count += 1
+  print("The final value of Box is {}".format(Box))
+  print("\n")
+else:
+  print("No, items left in the list now.")
+
+O/P:
+The final value of Box is 1
+The final value of Box is 2
+The final value of Box is 6
+The final value of Box is 24
+The final value of Box is 120
+No, items left in the list now.
+
+---------------------------------------------------
+
+I/P:
+
+num1 = int(input("Please enter the number:"))
+
+ifDivide = False
+
+i  = 1
+while i < num1:
+  if num1 % i == 0:
+    ifDivide = True
+    print ("{} is divisible by {}".format(num1,i))
+  i +=1
+
+if ifDivide:
+  print("{} is NOT a Prime number ".format(num1))
+else:
+  print("{} is a Prime number".format(num1))
+
+
+O/P:
+Please enter the number:16
+16 is divisible by 1
+16 is divisible by 2
+16 is divisible by 4
+16 is divisible by 8
+16 is NOT a Prime number 
+====================================================================================
+AI - 2.9
+
 17/07/2020
 ----------
 

@@ -113,6 +113,25 @@ Items in the list now completed.
 
 ---------------------------------------------
 
+index1 = int(input("Please enter the starting range number: "))
+index2 = int(input("Please enter the ending range number: "))
+
+print("\n")
+
+print("Prime number between {} and {} are:".format(index1, index2))
+
+print("\n")
+for num in range(index1,index2):
+    if (num > 1): 
+        isDivisible = False
+        for index in range(2, num):
+            if (num % index == 0):
+                isDivisible = True
+                print(num,"The number is not prime.")
+        if not isDivisible:
+            print("\n")
+            print(num, "is a prime number.")
+            print("\n")
 
 ====================================================================================
 AI - 2.10

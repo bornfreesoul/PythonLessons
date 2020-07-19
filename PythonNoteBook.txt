@@ -65,6 +65,57 @@ O/P:
 
 For loop exited.
 
+-----------------------------------------------------
+
+I/P:
+index1 = int(input("Please enter the starting range number: "))
+index2 = int(input("Please enter the ending range number: "))
+
+print("\n")
+
+print("Prime number between {} and {} are:".format(index1, index2))
+
+for num in range(index1,index2):
+    if (num > 1): 
+        isDivisible = False
+        for index in range(1, num):
+            if (num % index == 0) or (num % 2 == 0):
+                print("\n")
+                print(num, "- is even number.")
+                print("\n")
+                isDivisible = True
+                print(num,"The number is not prime.")
+                break
+        if not isDivisible:
+            print("\n")
+            print(num, "is a prime number.")
+            print("\n")
+
+O/P:
+Please enter the starting range number: 1
+Please enter the ending range number: 5
+
+
+Prime number between 1 and 5 are:
+
+
+2 - is even number.
+
+
+2 The number is not prime.
+
+
+3 - is even number.
+
+
+3 The number is not prime.
+
+
+4 - is even number.
+
+
+4 The number is not prime.
+
 ====================================================================================
 AI - 2.11
 

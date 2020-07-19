@@ -1,3 +1,73 @@
+19/07/2020
+----------
+
+Control and Break Flow Examples:-
+
+I/P:
+lst = [1,2,3,4]
+
+for num in lst:
+  if num == 4:
+    break
+  else:
+    print("Loop is ruuning -", num)
+print("The count completed master!")
+
+O/P:
+Loop is ruuning - 1
+Loop is ruuning - 2
+Loop is ruuning - 3
+The count completed master!
+
+-----------------------------------------------------
+
+I/P:
+num = int(input("Please enter the number:"))
+
+isDivisible = False
+
+i = 2
+while i < num:
+    if num % i == 0:
+        isDivisible = True
+        print("{} is divisible by {}".format(num,i))
+        break
+    i +=1
+if isDivisible:
+    print("{} is NOT a prime number".format(num))
+else:
+   print("{} is a prime number".format(num))
+
+O/P:
+Please enter the number:19
+19 is a prime number
+
+------------------------------------------------------
+I/P:
+numbers = [1,2,3,4,5]
+
+for num in numbers:
+  if num % 2 == 0:
+      print(num, "- is even number.")
+      continue
+  print(num, "- is odd number.")
+else:
+  print("\n")
+  print("For loop exited.")
+
+O/P:
+1 - is odd number.
+2 - is even number.
+3 - is odd number.
+4 - is even number.
+5 - is odd number.
+
+
+For loop exited.
+
+====================================================================================
+AI - 2.11
+
 18/07/2020
 ----------
 
@@ -134,7 +204,6 @@ for num in range(index1,index2):
             print("\n")
 
 ====================================================================================
-AI - 2.10
 
 17/07/2020
 ----------
@@ -224,6 +293,19 @@ print("Hello, {0} this is a simple {1}.".format(a,b))
 
 O/P:
 Hello, Kapil this is a simple example.
+------------------------------------------------------
+I/P:
+lst = ["Kapi", "Apil", "Tapil", "Japil", "Hapil"]
+
+for elm in lst:
+  print("The word length of {} is".format(elm),"-",len(elm))
+
+O/P:
+The word length of Kapi is - 4
+The word length of Apil is - 4
+The word length of Tapil is - 5
+The word length of Japil is - 5
+The word length of Hapil is - 5
 
 ------------------------------------------------------
 

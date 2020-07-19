@@ -116,8 +116,42 @@ Prime number between 1 and 5 are:
 
 4 The number is not prime.
 
+--------------------------------------
+
+List Example:-
+
+String Split:
+
+I/P:
+s1 = "Hi,how,are,you!"
+print(s1)
+s2 = "This is free CBT."
+print(s1)
+print()
+spt1 = s1.split(",")
+print(spt1)
+spt2 = s2.split()
+print(spt2)
+
+O/P:
+Hi,how,are,you!
+Hi,how,are,you!
+
+['Hi', 'how', 'are', 'you!']
+['This', 'is', 'free', 'CBT.']
+
+----------------------------------------------
+
+I/P:
+matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+transposed = [[row[i] for row in matrix] for i in range(4)]
+print(transposed)
+
+O/P:
+[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+
 ====================================================================================
-AI - 2.11
+AI - 3.1
 
 18/07/2020
 ----------

@@ -1,4 +1,84 @@
 
+22/07/2020
+----------
+
+ Examples:-
+
+I/P:
+Idic = {'name':'Kapil', 'age' : 100, 'Search':'Running'}
+print(Idic)
+
+
+O/P: 
+{'name': 'Kapil', 'age': 100, 'Search': 'Running'}
+
+----------------------------
+
+I/P:
+Idic = {'name':'Kapil', 'age' : 100, 'Search':'Running'}
+print(Idic.get('name'))
+
+
+O/P: 
+Kapil
+
+----------------------------
+
+I/P:
+Idic = {'name':'Kapil', 'age' : 100, 'Search':'Running'}
+Idic['name'] = 'ram'
+print(Idic)
+
+O/P: 
+{'name': 'ram', 'age': 100, 'Search': 'Running'}
+
+-----------------------------------------------
+
+I/P:
+Idic = {'name':'Kapil', 'age' : 100, 'Search':'Running'}
+Idic['name'] = 'ram'
+print(Idic)
+Idic['education'] = 'P.G'
+print(Idic)
+print(Idic.pop('education'))
+print(Idic)
+del Idic['Search']
+print(Idic)
+print(Idic.keys())
+print(Idic)
+print(Idic.values())
+print(Idic)
+k = {}
+print(dir(k))
+
+
+
+O/P: 
+{'name': 'ram', 'age': 100, 'Search': 'Running'}
+{'name': 'ram', 'age': 100, 'Search': 'Running', 'education': 'P.G'}
+P.G
+{'name': 'ram', 'age': 100, 'Search': 'Running'}
+{'name': 'ram', 'age': 100}
+dict_keys(['name', 'age'])
+{'name': 'ram', 'age': 100}
+dict_values(['ram', 100])
+{'name': 'ram', 'age': 100}
+['__class__', '__contains__', '__delattr__', '__delitem__', 
+'__dir__', '__doc__', '__eq__', '__format__', '__ge__', 
+'__getattribute__', '__getitem__', '__gt__', '__hash__', 
+'__init__', '__init_subclass__', '__iter__', '__le__', '__len__', 
+'__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', 
+'__repr__', '__setattr__', '__setitem__', '__sizeof__', '__str__', 
+'__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'items', 
+'keys', 'pop', 'popitem', 'setdefault', 'update', 'values']
+
+-------------------------------------------------
+
+
+====================================================================================
+AI - 3.5
+
+
 21/07/2020
 ----------
 

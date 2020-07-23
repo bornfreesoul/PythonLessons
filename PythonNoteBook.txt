@@ -1,8 +1,83 @@
+23/07/2020
+----------
+
+Strings Examples: 
+
+I/P:
+K = "Kapil"
+print(K)
+print(K[1:3])
+print(K[1:-3])
+
+O/P: 
+Kapil
+ap
+a
+
+-------------------------------------
+
+I/P:
+count = 0
+for l in "Who are you my dear one!":
+	if l == 'y':
+	  count += 1
+print(count, 'No. of letters found!') 
+
+
+O/P: 
+2 No. of letters found!
+
+----------------------------------------
+
+I/P: 
+"This is my place!".find("my")
+
+O/P: 
+8
+
+-----------------------------------------
+
+I/P:
+New1 = "I am Rahul!"
+New2 = New1.replace("Rahul", "Kapil")
+
+O/P:
+I am Rahul!
+I am Kapil!
+
+------------------------------------------
+
+I/P:
+myString = "This is a good excerise to do and learn new things!"
+print(myString)
+line = myString.split()
+line.sort()
+print(line)
+for line in line:
+  print(line)
+
+O/P: 
+This is a good excerise to do and learn new things!
+['This', 'a', 'and', 'do', 'excerise', 'good', 'is', 'learn', 'new', 'things!', 'to']
+This
+a
+and
+do
+excerise
+good
+is
+learn
+new
+things!
+to
+
+=============================================================
+AI 3.6
 
 22/07/2020
 ----------
 
- Examples:-
+Dictionary Examples:-
 
 I/P:
 Idic = {'name':'Kapil', 'age' : 100, 'Search':'Running'}

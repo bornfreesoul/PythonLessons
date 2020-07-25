@@ -1,3 +1,109 @@
+25/07/2020
+----------
+
+Functions Examples 2:
+
+I/P:
+num = -2000
+
+print(abs(-2000))
+
+O/P:
+2000
+
+------------------------------
+
+I/P:
+num  = [1,2,3,4]
+
+print(all(num))
+
+O/P:
+True
+
+------------------------------
+
+I/P: 
+print(divmod(10,19))
+
+O/P: 
+(0, 10)
+
+----------------------------------
+
+I/P: 
+ages_group = [1,2,3,4,5,10,12,14,16,18,20,24,28]
+
+def myFunc(x):
+  if x > 18:
+    return False
+  else:
+    return True
+
+adults = filter(myFunc, ages_group)
+
+for x in adults:
+  print(x,"- these are adults in the age data")
+
+
+O/P: 
+1 - these are adults in the age data
+2 - these are adults in the age data
+3 - these are adults in the age data
+4 - these are adults in the age data
+5 - these are adults in the age data
+10 - these are adults in the age data
+12 - these are adults in the age data
+14 - these are adults in the age data
+16 - these are adults in the age data
+18 - these are adults in the age data
+
+----------------------------------
+
+I/P: 
+lst = [2,4,6,8]
+
+def square_function(x):
+	return(x **2)
+
+numbers = list(map(square_function, lst))
+print(numbers)
+
+O/P: 
+[4, 16, 36, 64]
+
+----------------------------------
+
+I/P: 
+lst = [2,4,6,8]
+
+def reduce_function(x):
+	return(x **2)
+
+numbers = list(reduce(reduce_function, lst))
+print(numbers)
+
+
+O/P: 
+24
+
+----------------------------------
+
+I/P: 
+from functools import reduce
+lst = [1,2,3,4]
+def reduce_function(x,y):
+	return(x*y)
+
+numbers = reduce(reduce_function, lst)
+print(numbers)
+
+O/P: 
+24
+
+
+===========================================================
+4.2
 
 
 24/07/2020

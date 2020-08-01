@@ -1,7 +1,8 @@
 01/08/2020
 ----------
 
-#
+# Matplotlib Examples:
+----------------------
 
 I/P:
 import matplotlib.pyplot as plt
@@ -18,18 +19,96 @@ Plot created.
 -------------------------
 
 I/P:
+import numpy as np
+import matplotlib.pyplot as plt
+k = np.arange(0,9,0.2)
+
+plt.plot(k,k**2, "r^" , label="^2")
+plt.plot(k,k**4, "gs", label="^4")
+
+plt.grid()
+plt.title("Kapil Plot")
+plt.legend()
+plt.show()
+
+
+O/P:
+Plot created with legends
+
+
+--------------------------
+
+I/P:
+import matplotlib.pyplot as plt
+
+x = [1,2,3,4]
+y = [2,4,6,8]
+
+plt.plot(x,y,linewidth = 5.0)
+lines = plt.plot(x,y)
+
+plt.plot("r^",label="2^")
+plt.plot("g^",label="2^^")
+
+plt.title("Kapil Plot")
+plt.ylabel("Numbers")
+plt.xlabel("Indices")
+
+plt.legend()
+plt.grid()
+plt.show()
+
+O/P:
+Plot with legend, bold width.
+
+---------------------------
+
+I/P:
+import numpy as np
+import matplotlib.pyplot as plt
+
+k1 = np.arange(0.0, 5.0, 0.1)
+k2 = np.arange(0.0, 5.0, 0.02)
+
+plt.figure(1)
+plt.subplot(211)
+plt.grid()
+plt.plot(k1,"b--")
+plt.title("Kapil Plot 211")
+plt.tight_layout(pad=3.0)
+
+plt.subplot(212)
+plt.grid()
+plt.plot(k1,"r--")
+plt.title("Kapil Plot 212")
+plt.tight_layout(pad=3.0)
+
+plt.figure(2)
+plt.grid()
+plt.plot(k2,"g^")
+plt.title("Kapil Plot 2")
+
+
+O/P:
+Multi Plot with spacing.
+-----------------------------
+
+
+I/P:
+
+
 
 
 O/P:
 
---------------------------
 
 ==============================================
 
 31/07/2020
 ----------
 
-# 
+# Numpy Examples:
+---------------- 
 
 I/P:
 import numpy as np

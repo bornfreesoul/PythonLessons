@@ -1,3 +1,30 @@
+01/08/2020
+----------
+
+#
+
+I/P:
+import matplotlib.pyplot as plt
+plt.plot([1,2],[3,4])
+plt.ylabel("Numbers")
+plt.xlabel("Indices")
+plt.title("Kapil Plot")
+plt.grid()
+plt.show()
+
+O/P:
+Plot created.
+
+-------------------------
+
+I/P:
+
+
+O/P:
+
+--------------------------
+
+==============================================
 
 31/07/2020
 ----------

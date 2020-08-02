@@ -1,3 +1,29 @@
+03/08/20
+--------
+
+
+# Pandas Examples:
+
+I/P:
+import pandas as pd
+df = pd.read_csv("NY_weather.csv")
+print(df)
+df["DewPoint"].max(), "DewPoint Maxvalue."
+print(df['EST'][df['Events'] == "Rain"])
+print(df['WindSpeedMPH'].mean())
+
+O/P:
+Data displayed with dewpoint max value, rain days and mean windspeed.
+---------------------
+
+I/P:
+
+
+O/P:
+
+--------------------
+====================================
+
 01/08/2020
 ----------
 

@@ -1,3 +1,68 @@
+04/08/20
+--------
+
+# 
+
+I/P:
+import pandas as pd
+df = pd.read_csv("weather2.csv")
+df.head()
+
+
+O/P:
+Print first few top rows. 
+--------------------
+
+
+I/P:
+import pandas as pd
+df = pd.read_csv("weather2.csv")
+df.head()
+df.tail()
+df[2:4]
+
+
+O/P:
+Print second and third row.
+
+
+---------------------
+
+I/P:
+import pandas as pd
+df = pd.read_csv("weather2.csv")
+df.columns
+
+
+O/P:
+Index(['outlook', 'temperature', 'humidity', 'windy', 'play'], dtype='object')
+#Shows the columns of the csv file.
+
+----------------------
+
+I/P:
+import pandas as pd
+df = pd.read_csv("weather2.csv")
+df.info()
+
+O/P:
+# It shows the index & data types 
+
+
+-----------------------
+
+
+I/P:
+
+
+
+
+O/P:
+
+--------------------------
+
+=================================
+
 03/08/20
 --------
 

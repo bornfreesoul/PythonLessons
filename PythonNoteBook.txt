@@ -1,3 +1,36 @@
+05/08/2020
+----------
+
+# Compare two list and publish common numbers:
+
+I/P:
+import random
+
+l1 = list(range(5))
+random.shuffle(l1)
+
+
+l2 = list(range(10))
+random.shuffle(l2)
+
+count = 0
+for i in l1:
+    for j in l2:
+        if i == j:
+           print(i)
+           count +=1
+print("Common numbers are as following: ", count)
+
+
+O/P:
+0
+4
+3
+1
+2
+Common numbers are as following:  5
+
+=================================================
 
 04/08/20
 --------

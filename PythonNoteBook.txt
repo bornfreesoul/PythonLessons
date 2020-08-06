@@ -1,3 +1,22 @@
+06/08/2020
+----------
+
+#
+
+I/P:
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+iris = pd.read_csv("iris.csv")
+print(iris.shape)
+
+O/P:
+(150, 5)
+
+===================================================
+
 05/08/2020
 ----------
 

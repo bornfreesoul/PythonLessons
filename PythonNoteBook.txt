@@ -1,3 +1,34 @@
+07/08/2020
+----------
+
+#
+
+I/P:
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import matplotlib.pyplot as plt
+
+iris = pd.read_csv("iris.csv")
+
+sns.FacetGrid(iris, hue="variety", height=5).map(sns.distplot, "petal.length").add_legend()
+plt.show()
+
+O/P:
+A Histogram ploted. 
+--------------------
+
+I/P:
+
+
+
+O/P:
+
+--------------------
+
+
+===========================================
+
 06/08/2020
 ----------
 

@@ -887,4 +887,36 @@ while loop == 1:
         loop = 0
 
     print ("Thanks for using simple math calculator.")
+    
+============================================================================
+
+I/P:
+----
+
+print ("** Stock dividend - calculator application **")
+print()
+TNST = float(input("Please enter the count of total number of stocks: "))
+ADPO = float(input("Please enter annual dividend payout per annum: "))
+CSPP = float(input("Please enter the current stock price: "))
+
+DPAY = (ADPO/CSPP) * 100
+print()
+print("The annual dividend yield value is: %.2f " %DPAY)
+print()
+TPSV = ADPO * TNST
+print("Total profit due to dividend is: %.2f" %TPSV)
+
+O/P:
+----
+
+** Stock dividend - calculator application **
+
+Please enter the count of total number of stocks: 200
+Please enter annual dividend payout per annum: 50
+Please enter the current stock price: 750
+
+The annual dividend yield value is: 6.67 
+
+Total profit due to dividend is: 10000.00
+
 

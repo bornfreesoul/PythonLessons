@@ -1,3 +1,37 @@
+09/08/2020
+----------
+
+#
+
+I/P:
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+iris = pd.read_csv("iris.csv")
+
+sns.boxplot(x="variety",y="petal.length",data=iris)
+plt.show()
+
+O/P:
+Plot created with whiskers.
+
+------------------------------------------------------
+
+I/P:
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+iris = pd.read_csv("iris.csv")
+
+sns.violinplot(x="variety",y="petal.length",data=iris)
+plt.show()
+
+O/P:
+Violin plot created with whiskers.
+==================================================================
+
 07/08/2020
 ----------
 

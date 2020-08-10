@@ -1,3 +1,24 @@
+10/08/2020
+----------
+
+#
+
+I/P:
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+iris = pd.read_csv("iris.csv")
+
+sns.jointplot(x="petal.length",y="petal.width",data=iris)
+plt.show()
+
+O/P:
+Joint Plot created.
+
+
+============================================================
+
 09/08/2020
 ----------
 

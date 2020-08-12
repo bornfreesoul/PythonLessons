@@ -1,4 +1,35 @@
+12/08/2020
+----------
 
+# 
+
+I/P: 
+print ("*** Gratuity Calculator Application ***")
+print()
+LSD = float(input("Please enter your last drawn salary amomunt for your current company: "))
+NYW = float(input("Please enter number of years working in current company: "))
+print()
+TGA = LSD * (15/26) * NYW
+print("The total gratuity amount is: %.2f" %TGA)
+
+O/P:
+Total Gratuity amount shows up. 
+
+
+----------------------------------------------------------
+
+I/P: 
+
+
+
+O/P: 
+
+
+-----------------------------------------------------------
+
+
+
+============================================================
 
 
 10/08/2020

@@ -1,36 +1,34 @@
-12/08/2020
-----------
 
-# 
+13/08/2020
+-----------
 
-I/P: 
-print ("*** Gratuity Calculator Application ***")
-print()
-LSD = float(input("Please enter your last drawn salary amomunt for your current company: "))
-NYW = float(input("Please enter number of years working in current company: "))
-print()
-TGA = LSD * (15/26) * NYW
-print("The total gratuity amount is: %.2f" %TGA)
+#
+
+
+I/P:
+import random
+print(random.random())
+
+from sklearn import datasets
+iris = datasets.load_iris()
+
+k = iris.data
+k.shape
+
 
 O/P:
-Total Gratuity amount shows up. 
+0.5426365276254113
+(150, 4)
+------------------------
+
+I/P:
 
 
-----------------------------------------------------------
+O/P:
 
-I/P: 
+-------------------
 
-
-
-O/P: 
-
-
------------------------------------------------------------
-
-
-
-============================================================
-
+==============================================
 
 10/08/2020
 ----------

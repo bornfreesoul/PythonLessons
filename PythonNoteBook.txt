@@ -1,4 +1,36 @@
+14/08/2020
 
+# For loop exmaple 1:
+
+I/P:
+num = 99
+
+for i in range (1,50,100):
+  num += 1
+  if num == 100:
+    break
+    num += 1
+print(num)
+
+O/P:
+100
+
+-------------------------------
+
+I/P:
+fruits = ["Apple", "Oranges", "Mango", "Banana"]
+
+for fruit in fruits:
+    print("This is: " + fruit)
+
+O/P:
+This is: Apple
+This is: Oranges
+This is: Mango
+This is: Banana
+
+
+=========================================
 13/08/2020
 -----------
 

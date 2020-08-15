@@ -1,4 +1,45 @@
+
+15/08/2020
+----------
+
+# Money exchange ratio and rates application:
+
+I/P:
+print("*** Exchange Rate Formula ***")
+# c = a * b
+# MER = Money After Exchange / Money Before Exchange
+print()
+AFE = float(input("Please enter the money amount after exchange: "))
+
+MBE = float(input("Please enter the money amount before exchange: "))
+
+MER = AFE / MBE
+print()
+print("The money exchange forumla ratio one is: %2f" %MER)
+print()
+
+print("Money exchange rate formula two: ")
+
+c = MBE * MER
+
+print("Money exchange amount for received for currency conversion is: %2f" %c)
+
+
+O/P:
+*** Exchange Rate Formula ***
+
+Please enter the money amount after exchange: 100
+Please enter the money amount before exchange: 7500
+
+The money exchange forumla ratio one is: 0.013333
+
+Money exchange rate formula two: 
+Money exchange amount for received for currency conversion is: 100.000000
+
+=============================================
+
 14/08/2020
+----------
 
 # For loop exmaple 1:
 

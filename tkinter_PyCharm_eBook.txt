@@ -1,0 +1,14 @@
+16/08/20
+--------
+
+I/P:
+import tkinter as tk
+win = tk.Tk()
+win.title("KGUI")
+win.mainloop()
+
+O/P:
+GUI windows created with title.
+
+===============================
+

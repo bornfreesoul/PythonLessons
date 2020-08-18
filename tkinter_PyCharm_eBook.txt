@@ -79,4 +79,4 @@ win.title('LOOP')
 
 O/P:
 
-
+https://www.geeksforgeeks.org/python-gui-tkinter/

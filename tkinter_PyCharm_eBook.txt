@@ -67,3 +67,16 @@ submit_btn.grid(row=7, columnspan=2)
 win.mainloop()
 
 O/P:
+GUI
+
+---------------------------------------------------
+
+I/P:
+import tkinter as tk 
+from tkinter import ttk
+win = tk.Tk()
+win.title('LOOP')
+
+O/P:
+
+

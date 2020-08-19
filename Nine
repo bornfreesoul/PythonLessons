@@ -919,4 +919,25 @@ The annual dividend yield value is: 6.67
 
 Total profit due to dividend is: 10000.00
 
+-------------------------------------------------------
+
+I/P:
+print("*** Classification Metrics: Recall ***")
+print()
+TPV = float(input("Please enter the True Postive value: "))
+FNV = float(input("Please enter the False Negative value: "))
+print()
+RV1 = TPV+FNV
+RV2 = TPV/RV1
+print()
+print("The Recall Value is %2f"%RV2)
+
+O/P:
+*** Classification Metrics: Recall ***
+
+Please enter the True Postive value: 2
+Please enter the False Negative value: 8
+
+
+The Recall Value is 0.200000
 

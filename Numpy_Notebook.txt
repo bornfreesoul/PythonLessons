@@ -1,0 +1,30 @@
+20.0.XX
+=======
+
+I/P:
+import numpy as np
+a = np.array([0,1,2,3,4])
+print(a)
+print(np.arange(20))
+?a
+
+O/P:
+[0 1 2 3 4]
+[0 1 2 3 4 5]
+
+--------------------
+
+I/P:
+import matplotlib.pyplot as plt
+from skimage import io
+photo = io.imread("StarWars_Numpy.jpg")
+type(photo)
+plt.imshow(photo)
+plt.imshow(photo[50:150,150:280])
+
+
+O/P:
+Photo Details shows up.
+------------------------
+=============================
+

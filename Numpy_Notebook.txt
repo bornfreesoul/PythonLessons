@@ -1,5 +1,20 @@
 https://numpy.org/devdocs/user/quickstart.html
 
+
+22.0.XX
+=======
+
+I/P:
+
+
+
+O/P:
+import numpy as np
+a = np.array([0,1,2,3,4])
+print(a**2)
+
+===================================================
+
 21.0.XX
 =======
 

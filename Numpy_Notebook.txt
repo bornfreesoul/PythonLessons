@@ -1,5 +1,27 @@
 https://numpy.org/devdocs/user/quickstart.html
 
+23.0.XX
+=======
+
+I/P:
+
+import numpy as np
+a = np.array([0,1,2,3,4])
+print(a[4])
+print(a.size)
+print(a.shape)
+print(a.sum())
+print(a.min())
+print(a.max())
+
+O/P:
+4
+5
+(5,)
+10
+0
+4
+===================================================
 
 22.0.XX
 =======

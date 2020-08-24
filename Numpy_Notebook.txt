@@ -1,5 +1,20 @@
 https://numpy.org/devdocs/user/quickstart.html
 
+24.0.XX
+=======
+
+I/P:
+import numpy as np
+import matplotlib.pyplot as plt
+a = np.array([0,28,24,6,18])
+plt.plot(a)
+
+O/P:
+Matplotlib created.
+
+
+=====================================================
+
 23.0.XX
 =======
 

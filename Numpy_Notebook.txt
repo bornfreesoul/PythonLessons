@@ -1,5 +1,36 @@
 https://numpy.org/devdocs/user/quickstart.html
 
+26.08.XX
+=======
+
+I/P:
+import numpy as np
+import matplotlib.pyplot as plt
+K = np.array([0,28,24,6,18])
+print(K.dtype)
+print(K.size)
+print(K.ndim)
+print(len(K))
+print(K.shape)
+print(K.ravel())
+print(K.mean())
+print(K.sum())
+print(K.max())
+print(K.min())
+
+
+O/P: 
+int64
+5
+1
+5
+(5,)
+[ 0 28 24  6 18]
+15.2
+76
+28
+0
+===========================================================
 
 25.08.XX
 =======

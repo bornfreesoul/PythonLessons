@@ -1,0 +1,19 @@
+import pandas as pd
+import plotly.graph_objects as go
+df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv')
+print(df.all)
+fig = go.Figure(data=[go.Candlestick(x=df['Date'],
+                open=df['AAPL.Open'], high=df['AAPL.High'],
+                low=df['AAPL.Low'], close=df['AAPL.Close'])
+                      ])
+fig.update_layout(
+    title='The Kapil Stock Flow!',
+    yaxis_title='Kapil - KAPL Stock',
+    shapes = [dict(
+        x0='2016-12-09', x1='2016-12-09', y0=0, y1=1, xref='x', yref='paper',
+        line_width=2)],
+    annotations=[dict(
+        x='2016-12-09', y=0.05, xref='x', yref='paper',
+        showarrow=False, xanchor='left', text='Increase Period Begins')]
+)
+fig.show()

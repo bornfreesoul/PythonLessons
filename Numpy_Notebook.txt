@@ -1,5 +1,7 @@
 https://numpy.org/devdocs/user/quickstart.html
 
+======================================================
+
 27.08.XX
 =======
 I/P:

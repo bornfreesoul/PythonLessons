@@ -1,0 +1,117 @@
+
+31/08/20
+--------
+
+I/P:
+from ipywidgets import interact, interactive, fixed
+import ipywidgets as widgets
+
+def fun(x):
+  return x
+interact(fun,x=20)
+interact(fun,x="Hello Kapil!")
+
+@interact(x=True,y=1.0)
+def g(x,y):
+  return(x,y)
+
+O/P:
+Slider bar and input box.
+
+---------------
+
+I/P:
+import ipywidgets as widgets
+K = widgets.IntSlider()
+from IPython.display import display
+display(K)
+K.keys
+K.max = 2000
+
+O/P:
+Slider bar with value range.
+
+=========================================
+
+16/08/20
+--------
+
+I/P:
+import tkinter as tk
+win = tk.Tk()
+win.title("KGUI")
+win.mainloop()
+
+O/P:
+GUI windows created with title.
+
+===============================
+
+17/08/20
+--------
+
+I/P: 
+# for loop 
+import tkinter as tk 
+from tkinter import ttk
+win = tk.Tk()
+win.title('LOOP')
+
+labels = ['What is your name : ' , 'What is your age ', 'What is your gender : ', 'Country : ', 'State : ', 'City : ', 'address']
+
+
+
+for i in range(len(labels)):
+    cur_label = 'label' + str(i) # label0, label1
+    cur_label = ttk.Label(win, text = labels[i])
+    cur_label.grid(row=i, column=0, sticky=tk.W)
+
+# entry box
+name_var = tk.StringVar() 
+user_info = {
+    'name': tk.StringVar(),
+    'age': tk.StringVar(),
+    'gender': tk.StringVar(),
+    'country': tk.StringVar(),
+    'state': tk.StringVar(),
+    'city': tk.StringVar(),
+    'address' : tk.StringVar()
+}
+counter=0
+for i in user_info:
+    cur_entrybox = 'entry' + i # entryname # entryage
+    cur_entrybox = ttk.Entry(win, width=16, textvariable=user_info[i])
+    cur_entrybox.grid(column=1, row=counter)
+    counter += 1 
+
+def submit():
+    print(user_info['name'].get())
+    print(user_info.get('age').get())
+    print(user_info.get('gender').get())
+    print(user_info.get('country').get())
+    print(user_info.get('state').get())
+    print(user_info.get('city').get())
+
+submit_btn = ttk.Button(win, text='Submit', command=submit)
+submit_btn.grid(row=7, columnspan=2)
+
+# name_entry = ttk.Entry(win, width=16, textvariable=name_var)
+# name_entry.grid(row=0, column=1)
+
+
+win.mainloop()
+
+O/P:
+GUI
+
+---------------------------------------------------
+
+I/P:
+import tkinter as tk 
+from tkinter import ttk
+win = tk.Tk()
+win.title('LOOP')
+
+O/P:
+
+https://www.geeksforgeeks.org/python-gui-tkinter/

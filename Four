@@ -14,3 +14,9 @@ if myInfo>3800:
     print("Good Price")
 else:
     print("No, Price")
+
+-----------------------------------------------------------
+
+if(32 > 5)
+    print('It's true!')
+    

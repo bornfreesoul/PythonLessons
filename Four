@@ -25,3 +25,22 @@ if(32 > 5)
 my_loop = [1,2,3]
 for item in my_loop:
     print(item)
+
+----------------------------------------------------------
+I/P:
+my_loop1 = [1,2,3]
+for item1 in my_loop1:
+    print(item1)
+print()
+my_loop2 = ["Kapil", "Apil", "Pil"]
+for item2 in my_loop2:
+    print(item2)
+    
+O/P:
+1
+2
+3
+
+Kapil
+Apil
+Pil

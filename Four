@@ -44,3 +44,16 @@ O/P:
 Kapil
 Apil
 Pil
+
+---------------------------------------------
+I/P:
+my_list1 = [1,2,3,4]
+
+for my_items in my_list1:
+        print(my_items)
+        
+O/P:
+1
+2
+3
+4

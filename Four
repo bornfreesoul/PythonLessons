@@ -51,9 +51,16 @@ my_list1 = [1,2,3,4]
 
 for my_items in my_list1:
         print(my_items)
+
+my_name1 = {"Kapil":1, "Apil":2}
+
+for my_names in my_name1:
+        print(my_names)
         
 O/P:
 1
 2
 3
 4
+Kapil
+Apil

@@ -64,3 +64,16 @@ O/P:
 4
 Kapil
 Apil
+
+-------------------------------------------
+
+---------------------------------------------
+I/P:
+my_list1 = ["Kapil", "Apil"]
+
+for my_items in my_list1:
+        print(my_items)
+     
+O/P:
+Kapil
+Apil

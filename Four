@@ -87,3 +87,20 @@ for my_items in my_list1:
 O/P:
 Kapil
 Apil
+
+-------------------------------------------
+
+I/P:
+my_list1 = ["Kapil", "Apil",0,1,2,3,4]
+
+for my_items in my_list1:
+        print(my_items * 2)
+        
+O/P:
+KapilKapil
+ApilApil
+0
+2
+4
+6
+8

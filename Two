@@ -26,3 +26,20 @@ from pip._vendor.distlib.compat import raw_input
 
 name1 = raw_input("Please enter your age:")
 print('The age you entered is:',name1)
+
+-----------------------------------------------
+I/P:
+#Average = Sum of terms / No. of terms
+
+SoT = float(input("Please enter the sum of terms value: "))
+
+NoT = float(input("Please enter the number of terms: "))
+
+ASF = SoT / NoT
+
+print("The average value is: ", ASF)
+
+O/P:
+Please enter the sum of terms value: 10
+Please enter the number of terms: 5
+The average value is:  2.0

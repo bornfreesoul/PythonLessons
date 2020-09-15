@@ -941,3 +941,22 @@ Please enter the False Negative value: 8
 
 The Recall Value is 0.200000
 
+--------------------------------------------------------
+
+I/P: 
+print ("** Price-to-Earnings Ratio **")
+
+#Price per share / Earnings per share = P/E Ratio
+
+PPS = float(input("Please enter price per share: "))
+EPS = float(input("Please enter earnings per share: "))
+
+PER = PPS / EPS
+
+print("Price-to-Earnings Ratio is: %.2f" %PER)
+
+O/P:
+** Price-to-Earnings Ratio **
+Please enter price per share: 2367
+Please enter earnings per share: 157
+Price-to-Earnings Ratio is: 15.08

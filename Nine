@@ -960,3 +960,12 @@ O/P:
 Please enter price per share: 2367
 Please enter earnings per share: 157
 Price-to-Earnings Ratio is: 15.08
+
+------------------------------------------------------------
+
+WAP  = (FPA * FSP) + (SPA * SSP) + (TPA * TSP) / TAS
+
+WAP = Weighted Average Price
+TAS = Total Amount Spend
+FPA = First Price Amount
+FSP = First Stock Price

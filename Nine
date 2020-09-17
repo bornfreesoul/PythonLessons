@@ -969,3 +969,10 @@ WAP = Weighted Average Price
 TAS = Total Amount Spend
 FPA = First Price Amount
 FSP = First Stock Price
+
+print (** Average Stock Price Calculator **)
+
+TAS = float(input("Total Amount Spend: ")
+FPA = float(input("First Price Amount: ")
+FSP = float(input("First Stock Price: ")
+

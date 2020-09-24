@@ -985,3 +985,25 @@ WAP  = (FPA * FSP) + (SPA * SSP) + (TPA * TSP) / TAS
 
 print("Weighted Average Price is %.2f" %WAP)
 
+-------------------------------------------------------------
+
+I/P:
+#कुल ग्रेच्युटी की रकम = (अंतिम सैलरी) x (15/26) x (कंपनी में कितने साल काम किया)
+
+#TGA - Total Gratuity Amount
+#LDS - Last Drawn Salary
+#TWY - Total Working Year
+
+LDS = float(input("Please enter the last drawn salary: "))
+TWY = float(input("Please enter the total working year: "))
+
+TGA = LDS * (15/26) * (TWY)
+
+print("Total Gratuity Amount is: %.2f" %TGA)
+
+O/P:
+Please enter the last drawn salary: 35000
+Please enter the total working year: 7
+Total Gratuity Amount is: 141346.15
+
+

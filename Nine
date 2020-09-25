@@ -1006,4 +1006,11 @@ Please enter the last drawn salary: 35000
 Please enter the total working year: 7
 Total Gratuity Amount is: 141346.15
 
+-------------------------------------------------------------
+
+I/P:
+import Tkinter
+top = Tkinter.Tk()
+# Code to add widgets will go here...
+top.mainloop()
 

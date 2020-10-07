@@ -1014,3 +1014,11 @@ top = Tkinter.Tk()
 # Code to add widgets will go here...
 top.mainloop()
 
+----------------------------------------------------
+===================================================
+
+1 Mach - 1234 km/hr
+1234*8/60/60 = 2.74 KM per second
+ per min / per second
+
+450 km/2.75 = 163.64 seconds

@@ -1016,9 +1016,33 @@ top.mainloop()
 
 ----------------------------------------------------
 ===================================================
+I/P:
+#1 Mach - 1234 km/hr
 
-1 Mach - 1234 km/hr
-1234*8/60/60 = 2.74 KM per second
- per min / per second
+print ("** Missile speed calculator **")
+print()
+MSV = float(input("Please enter the missile speed in Mach: "))
 
-450 km/2.75 = 163.64 seconds
+KMV = 1234*MSV
+
+PSV = KMV/60/60
+print()
+print("The missile travel: %.2f" %PSV,"KM per second speed")
+print()
+MRV1 = float(input("Please enter the missile range in KM: "))
+
+MRV2 = MRV1/PSV
+print()
+print("Missile travel",MRV1,"KMs in %.2f" %MRV2, "seconds.")
+
+O/P:
+** Missile speed calculator **
+
+Please enter the missile speed in Mach: 8
+
+The missile travel: 2.74 KM per second speed
+
+Please enter the missile range in KM: 450
+
+Missile travel 450.0 KMs in 164.10 seconds.
+

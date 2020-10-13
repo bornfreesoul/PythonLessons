@@ -1046,3 +1046,29 @@ Please enter the missile range in KM: 450
 
 Missile travel 450.0 KMs in 164.10 seconds.
 
+=========================================================
+
+print (" ** Fraction Theory **")
+
+#(H + L + C) x 0.67 = Y
+#Resistance (R1) = Y – L
+#Support (S1) = Y – H
+#Possible Buy (P.B.) = Y – C
+#Above possible buy (P.B.), b 
+
+HSV = float(input("Please enter the High Stock Value: "))
+LSV = float(input("Please enter the Low Stock Value: "))
+CSV = float(input("Please enter the Close Stock Value: "))
+
+YFT = (HSV+LSV+CSV)*0.67
+print()
+print("The Fraction theory value is: %.2f" %YFT)
+print()
+RSV = YFT - LSV
+print("The Resistance value is: %.2f" %RSV)
+print()
+SSV = YFT - HSV
+print("The Support value is: %.2f" %SSV)
+print()
+PBV = YFT - CSV
+print("The Possible Buy value is: %.2f" %PBV)
